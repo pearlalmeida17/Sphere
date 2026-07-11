@@ -31,7 +31,7 @@ function WeatherChat({ isOpen, onClose, onOpen, weather, forecast, messages, onS
         setIsTyping(true)
 
 
-        const response = await fetch("http://localhost:8000/chat", {
+        const response = await fetch("https://sphere-backend-ypzg.onrender.com/chat", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({

@@ -18,7 +18,7 @@ function WeatherModal({ weather, selectedCity, onClose, forecast, isCelsius, con
     if (!weather) return
     setInsight("")
     const controller = new AbortController()
-    fetch("http://localhost:8000/chat", {
+    fetch("https://sphere-backend-ypzg.onrender.com/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       signal: controller.signal,

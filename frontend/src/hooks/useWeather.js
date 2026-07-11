@@ -16,8 +16,8 @@ function useWeather(){
 
     try{
         const [weatherRes, forecastRes] = await Promise.all([
-            fetch(`http://localhost:8000/weather?city=${city}`),
-            fetch(`http://localhost:8000/forecast?city=${city}`)
+            fetch(`https://sphere-backend-ypzg.onrender.com/weather?city=${city}`),
+            fetch(`https://sphere-backend-ypzg.onrender.com/forecast?city=${city}`)
         ])
         
         
