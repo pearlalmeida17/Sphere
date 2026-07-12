@@ -106,16 +106,14 @@ function App() {
     localStorage.setItem("timeFormat", is24Hour)
   }, [is24Hour])
 
-  function formatTime(timeStr, is24Hour){
-    if (!timeStr) return timeStr
-
-    const [hours, minutes] = timeStr.split(":").map(Number)
-    if (is24Hour) return `${String(hours).padStart(2,'0')}:${String(minutes.padStart(2,'0'))}`
-    const period = hours >= 12 ? "PM" : "AM"
-    const h = hours % 12 || 12
-    return `${h}:${String(minutes).padStart(2,'0')} ${period}`
-  
-  }
+  function formatTime(timeStr, is24Hour) {
+  if (!timeStr) return timeStr
+  const [hours, minutes] = timeStr.split(":").map(Number)
+  if (is24Hour) return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`
+  const period = hours >= 12 ? "PM" : "AM"
+  const h = hours % 12 || 12
+  return `${h}:${String(minutes).padStart(2, '0')} ${period}`
+}
 
   function toggleFav(cityObj) {
     setFavCities(prev =>
