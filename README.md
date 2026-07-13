@@ -226,4 +226,4 @@ MIT License — feel free to use this project for learning or inspiration.
 
 ---
 
-*Built with React, FastAPI, — as a CS project.*
+*Built with React, FastAPI*
