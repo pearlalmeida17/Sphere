@@ -201,7 +201,6 @@ Frontend runs at `https://sphere-pearlalmeida.vercel.app/`
 
 ![Search Loading](./screenshots/Screenshot%202026-07-12%20172257.png)
 
-![Weather Modal](./screenshots/Screenshot%202026-07-12%20172459.png)
 
 ![City Cards](./screenshots/Screenshot%202026-07-12%20173033.png)
 
