@@ -127,7 +127,7 @@ GEMINI_API_KEY=your_gemini_key
 uvicorn main:app --reload
 ```
 
-Backend runs at `http://localhost:8000`
+Backend runs at `https://sphere-backend-ypzg.onrender.com`
 
 ---
 
@@ -154,7 +154,7 @@ VITE_OPENWEATHER_API_KEY=your_openweathermap_key
 npm run dev
 ```
 
-Frontend runs at `http://localhost:5173`
+Frontend runs at `https://sphere-pearlalmeida.vercel.app/`
 
 ---
 
@@ -197,7 +197,13 @@ Frontend runs at `http://localhost:5173`
 
 ## Screenshots
 
-> Add screenshots of your app here after deployment
+![Home Screen](./screenshots/Screenshot%202026-07-12%20172145.png)
+
+![Search Loading](./screenshots/Screenshot%202026-07-12%20172257.png)
+
+![Weather Modal](./screenshots/Screenshot%202026-07-12%20172459.png)
+
+![City Cards](./screenshots/Screenshot%202026-07-12%20173033.png)
 
 ---
 
